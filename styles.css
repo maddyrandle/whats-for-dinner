@@ -95,8 +95,6 @@ html {
 
 header {
     background-color: #0fb9b1;
-    /* display: flex;
-    justify-content: space-between; */
     padding: 1rem;
 }
 
@@ -110,26 +108,39 @@ section {
 .left-box,
 .right-box {
     background-color: rgba(225, 225, 225, .9);
-    display: flex;
-    height: 24rem;
     padding: 2rem;
+    height: 24rem;
     width: 24rem;
 }
 
 .left-box {
-    flex-direction: column;
-    justify-content: space-around;
+ 
+}
+
+.container {
+    margin: 2rem 0;
 }
 
 .right-box {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.cook-btn {
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#cook {
     background-color: #0fb9b1;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
     padding: 0.5rem 0;
     width: 50%;
 }
@@ -137,4 +148,13 @@ section {
 .cookpot-svg {
     height: 50%;
     width: auto;
+}
+
+.container {
+
+}
+
+.dish-message {
+    color: black;
+    font-size: 16px;
 }
