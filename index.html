@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="./styles.css">
@@ -6,31 +7,30 @@
   <body>
     <header>
       <h1>Placeholder Title Text</h1>
-      <!-- <button>Add a Recipe</button> -->
     </header>
     <section>
+
       <div class="left-box">
         <h2>What are you looking for?</h2>
+        <form id="form">
           <div class="container">
-            <input type="radio" name="group1" id="radio-1">
-            <label for="radio-1">
-              <span class="radio">Side</span>
-            </label>
+            <input type="radio" name="dish" id="dish" value="Side">
+            <label for="side"><span>Side</span></label>
           </div>
           <div class="container">
-            <input type="radio" name="group1" id="radio-2">
-            <label for="radio-2">
-              <span class="radio">Main Dish</span>
-            </label>
+            <input type="radio" name="dish" id="main-dish" value="Main Dish">
+            <label for="main-dish"><span>Main Dish</span></label>
           </div>
           <div class="container">
-            <input type="radio" name="group1" id="radio-3">
-            <label for="radio-3">
-              <span class="radio">Dessert</span>
-            </label>
+            <input type="radio" name="dish" id="desser" value="Dessert">
+            <label for="dessert"><span>Dessert</span></label>
           </div>
-          <button class="cook-btn">LET'S COOK!</button>
+          <div class="container">
+            <button type="submit" id="cook">LET'S COOK!</button>
+          </div>
+        </form>
       </div>
+
 
       <div class="right-box">
         <svg 
